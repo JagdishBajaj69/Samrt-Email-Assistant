@@ -12,18 +12,18 @@ def categorize_email(text):
     try: 
         logging.info("Categorizing Email...")
         
-        promt = (
+        prompt = (
             "Categorize the email as one of the following: "
             "[Urgent, Normal, Spam]. Reply with the only category name."
         )
-        response = openai.CahtCompletion.create(
-            model = model_name,
-            messages = [
-                {"role": "system", "content": promt}
+        response = openai.ChatCompletion.create(
+            model=model_name,
+            messages=[
+                {"role": "system", "content": prompt},
                 {"role": "user", "content": text}
             ],
-            temperature = 0.2
-            max_token = 10
+            temperature=0.2,
+            max_tokens=10  # We only expect one word back
         )
         category = response['choice'][0]['message']['content'].strip()
         logging.info(f"Email categorized as {category}")
