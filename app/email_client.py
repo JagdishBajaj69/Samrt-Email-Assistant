@@ -6,6 +6,7 @@ from email.mime.text import MIMEText
 from app.config_loader import load_config
 
 config  = load_config()
+MODEL_NAME = config["OPENAI_MODEL"]
 
 class EmailClient:
     def __init__(self):
