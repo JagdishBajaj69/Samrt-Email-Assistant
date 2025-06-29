@@ -1,0 +1,10 @@
+openai
+transformers
+langchain
+spacy
+tqdm
+python-dotenv
+email
+imapclient
+pyzmail36
+imaplib
