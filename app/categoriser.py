@@ -4,7 +4,7 @@ from app.config_loader import load_config
 
 config = load_config()
 openai.api_key = config["OPENAI_API_KEY"]
-model_name  = config["MODEL_NAME"]
+model_name  = config["OPENAI_MODEL"]
 
 logging.basicConfig(level= logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
