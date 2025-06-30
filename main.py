@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 def main():
     logging.info(f"Smart Email Assitant started.")
 
-    client = EmailClient
+    client = EmailClient()
     try :
         client.login()
         logging.info("Logged in successfully!")
