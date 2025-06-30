@@ -1,9 +1,25 @@
 import imaplib
 import smtplib
 import email
-import logging
+import logging, os
 from email.mime.text import MIMEText
 from app.config_loader import load_config
+
+log_dir = os.path.join(os.path.dirname(__file__), '..', 'logs')
+os.makedirs(log_dir, exist_ok=True)
+
+log_file = os.path.join(log_dir, 'app.log')
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(log_file),
+        logging.StreamHandler()
+    ]
+)
+
+logger = logging.getLogger(__name__)
 
 config  = load_config()
 MODEL_NAME = config["OPENAI_MODEL"]
@@ -78,7 +94,7 @@ class EmailClient:
             logging.error(f"Error fetching emails: {e}")
             return []
 
-    def send_mail(self, to_address, subject, message):
+    def send_email(self, to_address, subject, message):
         try:
             msg = MIMEText(message)
             msg["Subject"] = subject
