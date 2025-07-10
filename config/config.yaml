@@ -1,4 +1,5 @@
-OPENAI_API_KEY: "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"
+GEMINI_API_KEY: "AIzaSyDeFFghx-1UkXeDwdbVQlWnV_UdqEHZx0g"
 GMAIL_EMAIL: "bajajj354@gmail.com"
-GMAIL_APP_PASSWORD: "cgrh lxwx igcp dqpj"
-OPENAI_MODEL : "gpt-4"
+GMAIL_APP_PASSWORD: "tkuczpucffankuic"
+GEMINI_MODEL : "gemini-2.0-flash"
+
