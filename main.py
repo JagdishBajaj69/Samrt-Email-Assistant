@@ -7,7 +7,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 def main():
-    logging.info(f"Smart Email Assitant started.")
+    logging.info(f"Smart Email Assistant started.")
 
     client = EmailClient()
     try :
@@ -23,8 +23,7 @@ def main():
         return
     
     for email in emails :
-        logging.info(f"Processing email from:{email['from']} ")
-        logging.info(f"Subject: {email['subject']}")
+        logging.info(f"Processing email from: {email['from']} — Subject: {email['subject']}")
         
         summary = summarize_text(email["body"])
         logging.info(f"Summary:{summary}")
@@ -32,10 +31,7 @@ def main():
         category = categorize_email(email["body"])
         logging.info(f"Category: {category}")
         
-        reply = generate_reply(email["body"], category)
-        if reply is None:
-            logging.info("Skipping spam email.")
-            continue    
+        reply = generate_reply(email["body"], category)   
         
         try:
             client.send_email(email["from"], f"Re: {email['subject']}", reply)
@@ -43,7 +39,7 @@ def main():
         except Exception as e:
             logging.error(f"Failed to send reply: {e}")
         
-        logging.info ("All Emails processed")
+    logging.info ("All Emails processed")
 
 if __name__== "__main__":
     main()

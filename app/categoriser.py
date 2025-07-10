@@ -1,26 +1,10 @@
-import openai
-import logging, os
+import google.generativeai as genai
+import logging
 from app.config_loader import load_config
 
-log_dir = os.path.join(os.path.dirname(__file__), '..', 'logs')
-os.makedirs(log_dir, exist_ok=True)
-
-log_file = os.path.join(log_dir, 'app.log')
-
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler(log_file),
-        logging.StreamHandler()
-    ]
-)
-
-logger = logging.getLogger(__name__)
-
 config = load_config()
-openai.api_key = config["OPENAI_API_KEY"]
-model_name  = config["OPENAI_MODEL"]
+genai.configure(api_key = config["GEMINI_API_KEY"])
+model_name  = config["GEMINI_MODEL"]
 
 logging.basicConfig(level= logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
@@ -29,25 +13,25 @@ def categorize_email(text):
         logging.info("Categorizing Email...")
         
         prompt = (
-            "Categorize the email as one of the following: "
-            "[Urgent, Normal, Spam]. Reply with the only category name."
-        )
-        response = openai.ChatCompletion.create(
-            model=model_name,
-            messages=[
-                {"role": "system", "content": prompt},
-                {"role": "user", "content": text}
-            ],
-            temperature=0.2,
-            max_tokens=10  # We only expect one word back
-        )
-        category = response['choice'][0]['message']['content'].strip()
+                "You are an email urgency classifier. Categorize the following email as strictly one of these: "
+                "'Urgent', 'Normal', or 'Spam'.\n\n"
+                "Only reply with one of the following words: Urgent, Normal, or Spam. No explanation."
+            )
+        model = genai.GenerativeModel(model_name)
+        chat = model.start_chat()
+        response = chat.send_message(f"{prompt}\n\n{text}")
+        category = response.text.strip()
+        
+        for label in ["urgent", "normal", "spam"]:
+            if label in category:
+                category = label.capitalize()
+                break
+        else:
+            category = "Unknown"
+
         logging.info(f"Email categorized as {category}")
+        logging.info(f"Raw Gemini response: {response.text}")
         return category
-    
-    except openai.error.OpenAIError as e:
-        logging.error(f"OpenAI API error during categorization: {e}")
-        return "Unknown"
     
     except Exception as e:
         logging.error(f"Unexpected error during categorization: {e}")
