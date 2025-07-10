@@ -22,7 +22,6 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 config  = load_config()
-MODEL_NAME = config["OPENAI_MODEL"]
 
 class EmailClient:
     def __init__(self):
@@ -41,7 +40,7 @@ class EmailClient:
         try:
             self.imap.login(self.email_address, self.password)
             self.smtp.login(self.email_address, self.password)
-            logging.info("logged into Gamil successfully1")
+            logging.info("logged into Gmail successfully.")
         except imaplib.IMAP4.error as e:
             logging.info(f"Failed to login to IMAP: {e}")
             raise
