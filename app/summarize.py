@@ -14,12 +14,14 @@ def summarize_text(text):
         logging.info("Summarizing Email content...")
         
         model = genai.GenerativeModel(MODEL_NAME)
-        response = model.generate_content(f"Summarize the following email:\n\n{text}")
+        chat = model.start_chat()
+        response = chat.send_message(f"Summarize the following email:\n\n{text}")
         summary = response.text
         logging.info("Summary generated successfully")
+        text = response.text.strip()
         return summary
         
     except Exception as e :
-        logging.error(f"Unexpected error during the summarzation {e}")
+        logging.error(f"Unexpected error during the summarization :{e}")
         return "[Error: Unexpected issue while summarizing.]"
     
