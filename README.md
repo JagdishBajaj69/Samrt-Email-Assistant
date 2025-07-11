@@ -142,10 +142,3 @@ MIT License – feel free to use and modify.
 ## 🤝 Contributing
 
 PRs and suggestions are welcome! Fork the repo and open an issue or pull request.
-
-```
-
----
-
-Would you like me to generate a matching `requirements.txt` file as well?
-```
