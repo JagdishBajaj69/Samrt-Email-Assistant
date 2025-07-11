@@ -1,11 +1,13 @@
-Here's a detailed and professional `README.md` for your **Smart Email Assistant** project:
+README.md for **Smart Email Assistant** project:
 
 ---
 
 ````markdown
 # 📬 Smart Email Assistant
 
-The **Smart Email Assistant** is a Python-based automation tool that reads unread emails, summarizes them using Google's Gemini API, categorizes them based on urgency (Urgent, Normal, Spam), and sends AI-generated replies — all without manual intervention.
+The **Smart Email Assistant** is a Python-based automation tool that reads unread emails,
+summarizes them using Google's Gemini API, categorizes them based on urgency (Urgent, Normal,
+Spam), and sends AI-generated replies — all without manual intervention.
 
 ---
 
