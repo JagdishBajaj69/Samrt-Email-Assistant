@@ -8,3 +8,28 @@ email
 imapclient
 pyzmail36
 imaplib
+
+::  New folder Structure  ::
+
+smart_email_assistant/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py                 # Entry point
+│   ├── config_loader.py        # Loads config.yaml
+│   ├── email_client.py         # Handles IMAP/SMTP email operations
+│   ├── summarize.py            # Gemini-based summarizer
+│   ├── categoriser.py          # Gemini-based categorizer
+│   ├── auto_reply.py           # Gemini-based auto-reply
+│   ├── scheduler.py            # (New) For periodic runs
+│   ├── storage.py              # (New) To store replied email logs
+│
+├── config.yaml                 # Stores API keys and credentials
+├── requirements.txt            # All dependencies
+├── run.py                      # Wrapper to call app.main()
+├── .env                        # (Optional) Store sensitive configs safely
+├── README.md                   # Project overview
+├── logs/
+│   └── app.log                 # Log files
+├── data/
+│   └── replied_emails.csv      # (New) Log of replied emails

@@ -1,0 +1,176 @@
+2025-07-01 00:54:23,227 - INFO - Smart Email Assitant started.
+2025-07-01 00:54:24,434 - INFO - IMAP and SMTP connection created successfully
+2025-07-01 00:54:30,201 - INFO - Failed to login to IMAP: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-07-01 00:54:30,201 - ERROR - Failed to login: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-07-01 01:17:52,592 - INFO - Smart Email Assitant started.
+2025-07-01 01:17:53,887 - INFO - IMAP and SMTP connection created successfully
+2025-07-01 01:17:55,377 - INFO - Failed to login to IMAP: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-07-01 01:17:55,377 - ERROR - Failed to login: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-07-01 01:24:25,738 - INFO - Smart Email Assitant started.
+2025-07-01 01:24:27,774 - INFO - IMAP and SMTP connection created successfully
+2025-07-01 01:24:34,259 - INFO - Failed to login to IMAP: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-07-01 01:24:34,259 - ERROR - Failed to login: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2025-07-01 01:28:52,308 - INFO - Smart Email Assitant started.
+2025-07-01 01:28:53,525 - INFO - IMAP and SMTP connection created successfully
+2025-07-01 01:28:58,626 - INFO - logged into Gamil successfully1
+2025-07-01 01:28:58,626 - INFO - Logged in successfully!
+2025-07-01 01:29:13,518 - WARNING - Failed to decode single-part email body.
+2025-07-01 01:29:14,483 - WARNING - Failed to decode single-part email body.
+2025-07-01 01:29:15,948 - WARNING - Failed to decode single-part email body.
+2025-07-01 01:29:17,492 - WARNING - Failed to decode single-part email body.
+2025-07-01 01:32:59,055 - INFO - Fetched 96 unread email(s).
+2025-07-01 01:32:59,055 - INFO - Processing email from:Google Community Team <googlecommunityteam-noreply@google.com> 
+2025-07-01 01:32:59,055 - INFO - Subject: Jagdish, finish setting up your new Google Account
+2025-07-01 01:32:59,055 - INFO - Summarizing Email content...
+2025-07-01 01:53:42,811 - INFO - Smart Email Assitant started.
+2025-07-01 01:53:44,960 - INFO - IMAP and SMTP connection created successfully
+2025-07-01 01:53:48,441 - INFO - logged into Gamil successfully1
+2025-07-01 01:53:48,441 - INFO - Logged in successfully!
+2025-07-01 01:53:52,404 - INFO - Fetched 1 unread email(s).
+2025-07-01 01:53:52,404 - INFO - Processing email from:Jagdish Bajaj <bajajj3704@gmail.com> 
+2025-07-01 01:53:52,404 - INFO - Subject: Urgent need of the documents
+2025-07-01 01:53:52,407 - INFO - Summarizing Email content...
+2025-07-01 01:59:08,112 - INFO - Smart Email Assitant started.
+2025-07-01 01:59:09,958 - INFO - IMAP and SMTP connection created successfully
+2025-07-01 01:59:12,279 - INFO - logged into Gamil successfully1
+2025-07-01 01:59:12,279 - INFO - Logged in successfully!
+2025-07-01 01:59:13,448 - INFO - Fetched 0 unread email(s).
+2025-07-01 01:59:13,448 - INFO - No unread emails found.
+2025-07-01 02:00:11,268 - INFO - Smart Email Assitant started.
+2025-07-01 02:00:12,430 - INFO - IMAP and SMTP connection created successfully
+2025-07-01 02:00:17,011 - INFO - logged into Gamil successfully1
+2025-07-01 02:00:17,011 - INFO - Logged in successfully!
+2025-07-01 02:00:21,629 - INFO - Fetched 1 unread email(s).
+2025-07-01 02:00:21,629 - INFO - Processing email from:Jagdish Bajaj <bajajj3704@gmail.com> 
+2025-07-01 02:00:21,629 - INFO - Subject: Re: Urgent need of the documents
+2025-07-01 02:00:21,629 - INFO - Summarizing Email content...
+2025-07-01 02:06:25,391 - INFO - Smart Email Assitant started.
+2025-07-01 02:06:26,599 - INFO - IMAP and SMTP connection created successfully
+2025-07-01 02:06:31,562 - INFO - logged into Gamil successfully1
+2025-07-01 02:06:31,562 - INFO - Logged in successfully!
+2025-07-01 02:06:34,055 - INFO - Fetched 0 unread email(s).
+2025-07-01 02:06:34,055 - INFO - No unread emails found.
+2025-07-01 14:20:12,770 - INFO - Smart Email Assitant started.
+2025-07-01 14:20:14,891 - INFO - IMAP and SMTP connection created successfully
+2025-07-01 14:20:18,912 - INFO - logged into Gamil successfully1
+2025-07-01 14:20:18,912 - INFO - Logged in successfully!
+2025-07-01 14:20:20,763 - INFO - Fetched 1 unread email(s).
+2025-07-01 14:20:20,763 - INFO - Processing email from:Jagdish Bajaj <bajajj3704@gmail.com> 
+2025-07-01 14:20:20,763 - INFO - Subject: Fwd: Urgent need of the documents
+2025-07-01 14:20:20,763 - INFO - Summarizing Email content...
+2025-07-01 14:20:20,763 - ERROR - Unexpected error during the summarzation module 'openai' has no attribute 'OpenAI'
+2025-07-01 14:20:20,763 - INFO - Summary:[Error: Unexpected issue while summarizing.]
+2025-07-01 14:20:20,763 - INFO - Categorizing Email...
+2025-07-01 14:20:21,975 - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-07-01 14:20:21,981 - ERROR - OpenAI API error during categorization: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-07-01 14:20:21,981 - INFO - Category: Unknown
+2025-07-01 14:20:21,981 - INFO - Generating auto-reply according to category...
+2025-07-01 14:20:22,810 - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-07-01 14:20:22,810 - INFO - OpenAI API error during genterating reply:{e} 
+2025-07-01 14:20:24,753 - INFO - sent email to Jagdish Bajaj <bajajj3704@gmail.com> with subject 'Re: Fwd: Urgent need of the documents'.
+2025-07-01 14:20:24,753 - INFO - Reply sent successfully.
+2025-07-01 14:20:24,753 - INFO - All Emails processed
+2025-07-01 14:22:29,865 - INFO - Smart Email Assitant started.
+2025-07-01 14:22:31,688 - INFO - IMAP and SMTP connection created successfully
+2025-07-01 14:22:33,209 - INFO - logged into Gamil successfully1
+2025-07-01 14:22:33,209 - INFO - Logged in successfully!
+2025-07-01 14:22:35,546 - INFO - Fetched 1 unread email(s).
+2025-07-01 14:22:35,546 - INFO - Processing email from:Jagdish Bajaj <bajajj3704@gmail.com> 
+2025-07-01 14:22:35,554 - INFO - Subject: Fwd: You completed LLMOps!
+2025-07-01 14:22:35,554 - INFO - Summarizing Email content...
+2025-07-01 14:22:35,554 - ERROR - Unexpected error during the summarzation module 'openai' has no attribute 'OpenAI'
+2025-07-01 14:22:35,555 - INFO - Summary:[Error: Unexpected issue while summarizing.]
+2025-07-01 14:22:35,555 - INFO - Categorizing Email...
+2025-07-01 14:22:36,082 - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-07-01 14:22:36,082 - ERROR - OpenAI API error during categorization: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-07-01 14:22:36,082 - INFO - Category: Unknown
+2025-07-01 14:22:36,082 - INFO - Generating auto-reply according to category...
+2025-07-01 14:22:36,677 - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-07-01 14:22:36,677 - INFO - OpenAI API error during genterating reply:{e} 
+2025-07-01 14:22:38,340 - INFO - sent email to Jagdish Bajaj <bajajj3704@gmail.com> with subject 'Re: Fwd: You completed LLMOps!'.
+2025-07-01 14:22:38,340 - INFO - Reply sent successfully.
+2025-07-01 14:22:38,340 - INFO - All Emails processed
+2025-07-01 14:33:26,862 - INFO - Smart Email Assitant started.
+2025-07-01 14:33:28,108 - INFO - IMAP and SMTP connection created successfully
+2025-07-01 14:33:32,162 - INFO - logged into Gamil successfully1
+2025-07-01 14:33:32,163 - INFO - Logged in successfully!
+2025-07-01 14:33:35,334 - INFO - Fetched 2 unread email(s).
+2025-07-01 14:33:35,334 - INFO - Processing email from:Jagdish Bajaj <bajajj3704@gmail.com> 
+2025-07-01 14:33:35,334 - INFO - Subject: Fwd: Interview Invitation
+2025-07-01 14:33:35,345 - INFO - Summarizing Email content...
+2025-07-01 14:33:35,345 - ERROR - Unexpected error during the summarzation module 'openai' has no attribute 'OpenAI'
+2025-07-01 14:33:35,345 - INFO - Summary:[Error: Unexpected issue while summarizing.]
+2025-07-01 14:33:35,346 - INFO - Categorizing Email...
+2025-07-01 14:33:36,563 - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-07-01 14:33:36,563 - ERROR - OpenAI API error during categorization: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-07-01 14:33:36,563 - INFO - Category: Unknown
+2025-07-01 14:33:36,563 - INFO - Generating auto-reply according to category...
+2025-07-01 14:33:37,263 - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-07-01 14:33:37,263 - INFO - OpenAI API error during genterating reply:{e} 
+2025-07-01 14:33:39,113 - INFO - sent email to Jagdish Bajaj <bajajj3704@gmail.com> with subject 'Re: Fwd: Interview Invitation'.
+2025-07-01 14:33:39,113 - INFO - Reply sent successfully.
+2025-07-01 14:33:39,113 - INFO - All Emails processed
+2025-07-01 14:33:39,113 - INFO - Processing email from:Jagdish Bajaj <bajajj3704@gmail.com> 
+2025-07-01 14:33:39,113 - INFO - Subject: Interview call
+2025-07-01 14:33:39,113 - INFO - Summarizing Email content...
+2025-07-01 14:33:39,113 - ERROR - Unexpected error during the summarzation module 'openai' has no attribute 'OpenAI'
+2025-07-01 14:33:39,113 - INFO - Summary:[Error: Unexpected issue while summarizing.]
+2025-07-01 14:33:39,113 - INFO - Categorizing Email...
+2025-07-01 14:33:39,440 - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-07-01 14:33:39,440 - ERROR - OpenAI API error during categorization: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2025-07-01 14:33:39,440 - INFO - Category: Unknown
+2025-07-01 14:33:39,440 - INFO - Generating auto-reply according to category...
+2025-07-01 14:33:40,878 - INFO - error_code=insufficient_quota error_message='You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.' error_param=None error_type=insufficient_quota message='OpenAI API error received' stream_error=False
+2025-07-01 14:33:40,878 - INFO - OpenAI API error during genterating reply:{e} 
+2025-07-01 14:33:42,631 - INFO - sent email to Jagdish Bajaj <bajajj3704@gmail.com> with subject 'Re: Interview call'.
+2025-07-01 14:33:42,631 - INFO - Reply sent successfully.
+2025-07-01 14:33:42,631 - INFO - All Emails processed
+2025-07-01 19:20:21,798 - INFO - Smart Email Assitant started.
+2025-07-01 19:20:24,998 - INFO - IMAP and SMTP connection created successfully
+2025-07-01 19:20:28,570 - INFO - logged into Gamil successfully1
+2025-07-01 19:20:28,570 - INFO - Logged in successfully!
+2025-07-01 19:20:33,752 - INFO - Fetched 1 unread email(s).
+2025-07-01 19:20:33,752 - INFO - Processing email from:Jagdish Bajaj <bajajj3704@gmail.com> 
+2025-07-01 19:20:33,752 - INFO - Subject: interview invitation
+2025-07-01 19:20:33,752 - INFO - Summarizing Email content...
+2025-07-01 19:20:36,498 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-01 19:20:36,505 - INFO - Retrying request to /chat/completions in 0.412360 seconds
+2025-07-01 19:20:38,023 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-01 19:20:38,023 - INFO - Retrying request to /chat/completions in 0.898167 seconds
+2025-07-01 19:20:39,702 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-01 19:20:39,713 - ERROR - OpenAI API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-01 19:20:39,713 - INFO - Summary:None
+2025-07-01 19:20:39,716 - INFO - Categorizing Email...
+2025-07-02 00:49:54,369 - INFO - Smart Email Assitant started.
+2025-07-02 00:49:55,703 - INFO - IMAP and SMTP connection created successfully
+2025-07-02 00:49:58,364 - INFO - logged into Gamil successfully1
+2025-07-02 00:49:58,364 - INFO - Logged in successfully!
+2025-07-02 00:50:06,178 - INFO - Fetched 1 unread email(s).
+2025-07-02 00:50:06,179 - INFO - Processing email from:Jagdish Bajaj <bajajj3704@gmail.com> 
+2025-07-02 00:50:06,179 - INFO - Subject: Document required
+2025-07-02 00:50:06,179 - INFO - Summarizing Email content...
+2025-07-02 00:50:08,431 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-02 00:50:08,433 - INFO - Retrying request to /chat/completions in 0.473066 seconds
+2025-07-02 00:50:09,878 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-02 00:50:09,878 - INFO - Retrying request to /chat/completions in 0.860809 seconds
+2025-07-02 00:50:12,025 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-02 00:50:12,035 - ERROR - OpenAI API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-02 00:50:12,035 - INFO - Summary:[Error: Issue with OpenAI API quota.]
+2025-07-02 00:50:12,035 - INFO - Categorizing Email...
+2025-07-02 00:50:12,904 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-02 00:50:12,905 - INFO - Retrying request to /chat/completions in 0.481080 seconds
+2025-07-02 00:50:13,716 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-02 00:50:13,716 - INFO - Retrying request to /chat/completions in 0.918670 seconds
+2025-07-02 00:50:15,212 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-02 00:50:15,212 - ERROR - OpenAI API error during categorization: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-02 00:50:15,225 - INFO - Category: Unknown
+2025-07-02 00:50:15,225 - INFO - Generating auto-reply according to category...
+2025-07-02 00:50:16,082 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-02 00:50:16,082 - INFO - Retrying request to /chat/completions in 0.427757 seconds
+2025-07-02 00:50:16,840 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-02 00:50:16,840 - INFO - Retrying request to /chat/completions in 0.861730 seconds
+2025-07-02 00:50:19,284 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-07-02 00:50:19,286 - ERROR - OpenAI API error during generating reply: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-02 00:50:20,994 - INFO - sent email to Jagdish Bajaj <bajajj3704@gmail.com> with subject 'Re: Document required'.
+2025-07-02 00:50:20,994 - INFO - Reply sent successfully.
+2025-07-02 00:50:20,994 - INFO - All Emails processed
